@@ -1,8 +1,12 @@
 const express = require('express');
-const homepage = require('./application/homepage.js');
-const userManagement = require('./application/userManagement.js');
+const path = require('path');
+const homepage = require('./application/controllers/homepage.js');
+const userManagement = require('./application/controllers/userManagement.js');
 
 const app = express();
+
+app.set('views', path.join(__dirname, '/application/views'));
+app.set('view engine', 'ejs')
 
   homepage(app);
   userManagement(app);

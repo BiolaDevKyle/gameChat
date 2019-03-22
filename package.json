@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/BiolaDevKyle/gameChat/issues"
   },
-  "homepage": "https://github.com/BiolaDevKyle/gameChat#readme"
+  "homepage": "https://github.com/BiolaDevKyle/gameChat#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }

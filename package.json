@@ -1,0 +1,22 @@
+{
+  "name": "gamechat",
+  "version": "1.0.0",
+  "description": "simple chat site for gamers",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BiolaDevKyle/gameChat.git"
+  },
+  "keywords": [
+    "io"
+  ],
+  "author": "Kyle Rhodes",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/BiolaDevKyle/gameChat/issues"
+  },
+  "homepage": "https://github.com/BiolaDevKyle/gameChat#readme"
+}
